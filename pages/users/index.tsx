@@ -10,6 +10,8 @@ type Props = {
   items: User[]
 }
 
+
+
 const WithStaticProps = ({ items }: Props) => (
   <Layout title="Users List | Next.js + TypeScript Example">
     <h1>Users List</h1>
